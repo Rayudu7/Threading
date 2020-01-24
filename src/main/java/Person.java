@@ -10,7 +10,7 @@ public class Person {
     public static void main (String[] args){
         String person;
         UUID uuid = UUID.randomUUID();
-        String randomUUIDString = uuid.toString();
+        final String randomUUIDString = uuid.toString();
 
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the person name :");
